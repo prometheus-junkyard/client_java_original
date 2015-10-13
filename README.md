@@ -1,5 +1,8 @@
-# Prometheus JVM Client
+# Prometheus JVM Original Client
 It supports Java, Clojure, Scala, JRuby, and anything else that runs on the JVM.
+
+**WARNING: This repository is an archvive of the Original Java Client, which is deprecated.
+Please use the [Java Simpleclient](https://github.com/prometheus/client_java) instead.**
 
 ## Using
 ### Assets
@@ -8,36 +11,6 @@ version can be found on in the maven repository for
 [io.prometheus](http://mvnrepository.com/artifact/io.prometheus) and
 [io.prometheus.client.utility](http://mvnrepository.com/artifact/io.prometheus.client.utility).
 
-#### Simpleclient
-
-```xml
-<!-- The client -->
-<dependency>
-  <groupId>io.prometheus</groupId>
-  <artifactId>simpleclient</artifactId>
-  <version>0.0.10</version>
-</dependency>
-<!-- Hotspot JVM metrics-->
-<dependency>
-  <groupId>io.prometheus</groupId>
-  <artifactId>simpleclient_hotspot</artifactId>
-  <version>0.0.10</version>
-</dependency>
-<!-- Exposition servlet-->
-<dependency>
-  <groupId>io.prometheus</groupId>
-  <artifactId>simpleclient_servlet</artifactId>
-  <version>0.0.10</version>
-</dependency>
-<!-- Pushgateway exposition-->
-<dependency>
-  <groupId>io.prometheus</groupId>
-  <artifactId>simpleclient_pushgateway</artifactId>
-  <version>0.0.10</version>
-</dependency>
-```
-
-#### Original client
 ```xml
 <!-- The client -->
 <dependency>
@@ -169,6 +142,3 @@ Page](http://prometheus.github.io/client_java).
 
 ## Contact
   * All of the core developers are accessible via the [Prometheus Developers Mailinglist](https://groups.google.com/forum/?fromgroups#!forum/prometheus-developers).
-
-
-[![Build Status](https://travis-ci.org/prometheus/client_java.png?branch=master)](https://travis-ci.org/prometheus/client_java)

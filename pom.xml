@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.prometheus</groupId>
-    <artifactId>parent</artifactId>
+    <artifactId>parent-original-client</artifactId>
     <version>0.0.11-SNAPSHOT</version>
 
     <parent>
@@ -13,8 +13,8 @@
         <version>7</version>
     </parent>
 
-    <name>Prometheus Java Suite</name>
-    <url>http://github.com/prometheus/client_java</url>
+    <name>Prometheus Java Suite - Original Client</name>
+    <url>http://github.com/prometheus-junkyard/client_java_original</url>
     <description>
         The Prometheus Java Suite: Client Metrics, Exposition, and Examples
     </description>
@@ -46,14 +46,6 @@
         <module>client</module>
         <module>examples</module>
         <module>utility</module>
-        <module>simpleclient</module>
-        <module>simpleclient_common</module>
-        <module>simpleclient_hotspot</module>
-        <module>simpleclient_servlet</module>
-        <module>simpleclient_log4j</module>
-        <module>simpleclient_logback</module>
-        <module>simpleclient_pushgateway</module>
-        <module>benchmark</module>
     </modules>
     
     <properties>

@@ -12,7 +12,7 @@
     </parent>
 
     <name>Prometheus Java Instrumentation Helpers for Hotspot VM</name>
-    <url>http://github.com/prometheus/client_java</url>
+    <url>http://github.com/prometheus-junkyard/client_java_original</url>
     <description>
         The Prometheus Java Instrumentation Helpers for Hotspot VM
     </description>
@@ -26,9 +26,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:prometheus/client_java.git</connection>
-        <developerConnection>scm:git:git@github.com:prometheus/client_java.git</developerConnection>
-        <url>git@github.com:prometheus/client_java.git</url>
+        <connection>scm:git:git@github.com:prometheus-junkyard/client_java_original.git</connection>
+        <developerConnection>scm:git:git@github.com:prometheus-junkyard/client_java_original.git</developerConnection>
+        <url>git@github.com:prometheus-junkyard/client_java_original.git</url>
         <tag>HEAD</tag>
     </scm>
 
