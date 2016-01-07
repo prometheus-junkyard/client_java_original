@@ -1,7 +1,7 @@
 # Prometheus JVM Original Client
 It supports Java, Clojure, Scala, JRuby, and anything else that runs on the JVM.
 
-**WARNING: This repository is an archvive of the Original Java Client, which is deprecated.
+**WARNING: This repository is an archive of the Original Java Client, which is deprecated.
 Please use the [Java Simpleclient](https://github.com/prometheus/client_java) instead.**
 
 ## Using
